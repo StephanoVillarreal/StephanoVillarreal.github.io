@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+header{
+    width: 100%;
+    height: 80px;
+}
+header nav{
+    display: flex;
+    justify-content: left;
+}
+header nav .nav-left-section{
+    width: 180px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content:left;
+    align-items: center;
+}
+nav a{
+    margin-right: 20px;
+    color: #29395A;
+}
+nav .nav-left-section .menu-icon{
+    background-image: url('https://th.bing.com/th/id/OIP.m1Yjh2kz665Xb6E96HZusQHaHa?rs=1&pid=ImgDetMain');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+nav .nav-left-section .menu-logo{
+    background-image: url('https://img2.gratispng.com/20180712/wr/kisspng-real-madrid-c-f-201112-la-liga-football-sport-antimony-symbol-5b46ed83ad42a7.5839461815313749797097.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    cursor: pointer;
+}
+nav .nav-left-section .menu-trofeo{
+    background-image: url('https://footsoccerpro.co/wp-content/uploads/2022/05/patch-ucl-14-real-madrid-min.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+header nav .nav-center-section{
+    width: 800px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content:center;
+    align-items: center;
+    font-size: 15px;
+    color:rgb(67, 82, 110);
+}
+header nav .nav-right-section{
+    width: 350px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;   
+}
+nav .nav-right-section .logo-emirates{
+    background-image: url('https://th.bing.com/th/id/OIP.5rgS6W6qfCQHU3vUEErbNAAAAA?rs=1&pid=ImgDetMain');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+nav .nav-right-section .logo-adidas{
+    background-image: url('https://golfteamproducts.com/cdn/shop/files/Adidas-Logo.png?v=1658346189&width=550');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    padding-right: 20%;
+    cursor: pointer;
+}
+nav .nav-right-section .icon-menu{
+    background-image: url('https://th.bing.com/th/id/OIP.fDvLJi-LLSR24TXVy_9QdAAAAA?rs=1&pid=ImgDetMain');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    padding-right: 5%;
+    cursor:pointer;
+}
+nav .nav-right-section button{
+    width: 90px;
+    height: 36px;
+    background-color: white;
+    font-size: 14px;
+    color: rgb(62, 49, 250);
+    border-radius: 5px;
+    border-color: rgb(62, 49, 250);
+    padding-left: 20%;
+    cursor: pointer;
+}
+main{
+    margin-top: 50px;
+    text-align: center;
+}
+main .main-title{
+    color: #0F2145;
+    font-size: 42px;
+}
+main .main-sub{
+    color: #0F2145;
+    font-size: 24px;
+}
+main .main-image img{
+    border-radius: 10px;
+}
+main img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+main .main-training{
+    padding-top: 20px;
+    color:rgb(120, 131, 152);
+    font-size: 32px;
+}
+main .main-item .main-item-image{
+    display: flex;
+    padding: 20px 10px 20px 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+main .main-item .main-item-image img{
+    border-radius: 10px;
+}
+
+main .main-item img:hover{
+    transform: scale(1.013);
+}
+footer{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-top: 1px solid #e4e4e4;
+}
+footer p{
+    font-size: 10px;
+    color: rgb(94, 106, 131);
+}
+footer ul{
+    display: flex;
+    list-style: none; 
+}
+footer ul li a{
+    font-size: 10px;
+    color:rgb(94, 106, 131);
+    margin: 10px;
+}
